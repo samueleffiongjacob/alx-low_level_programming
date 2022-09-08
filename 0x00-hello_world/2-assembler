@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -E $CFILE
+gcc -S $CFILE
 0-preprocessor
 1-compiler
 2-assembler
