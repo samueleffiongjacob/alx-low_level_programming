@@ -93,7 +93,7 @@ char *_strcpy(char *s, int i, char *tmp)
  *
  * Return: Array of words.
  */
-char **strtow(char *str)
+char **strtow(char **str)
 {
 
 	int i = 0, j = 0, pos, t;
@@ -135,4 +135,3 @@ char **strtow(char *str)
 	tmp[j] = NULL;
 	return (tmp);
 }
-
