@@ -96,7 +96,7 @@ char *_strcpy(char *s, int i, char *tmp)
 char **strtow(char *str)
 {
 
-	int i = 0, j = 0, pos, t;
+	int i = 0, j = 0, pos = 0, t = 0;
 	char **tmp;
 
 	if (str == NULL || _strcmp(str, "") || (words(str) == 0))
@@ -135,4 +135,3 @@ char **strtow(char *str)
 	tmp[j] = NULL;
 	return (tmp);
 }
-
