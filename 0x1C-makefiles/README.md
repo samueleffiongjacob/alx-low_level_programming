@@ -20,4 +20,4 @@
 
 
 ## Authors
-Tewodros Atirsaw Awedew
+SAMUEL EFFIONG JACOB
