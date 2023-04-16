@@ -14,7 +14,7 @@
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for 	ALX STUDENT 	 project
+ * for 	ALX STUDENT project
  */
 typedef struct listint_s
 {
