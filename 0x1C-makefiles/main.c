@@ -5,16 +5,10 @@
  *
  * Return: Always 
  */
-int main(void)
-{
-	print_holberton();
-	return (EXIT_SUCCESS);
-}
-/* Alx */
 
 
 int main(void)
 {
-	print_holberton();
-	
+	print_alx();
+	return (EXIT_SUCCESS)
 }
