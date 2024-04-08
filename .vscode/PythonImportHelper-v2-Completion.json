@@ -1,0 +1,20 @@
+[
+    {
+        "label": "neighbour",
+        "kind": 2,
+        "importPath": "0x1C-makefiles.5-island_perimeter",
+        "description": "0x1C-makefiles.5-island_perimeter",
+        "peekOfCode": "def neighbour(grid, y, x):\n    \"\"\"\n        Finds the number of neighbours of a square.\n        Args:\n            grid (list): the matrix.\n            y (int): height parameter.\n            x (int): width parameter.\n    \"\"\"\n    nb = 4\n    if (y > 0) and grid[y - 1][x]:",
+        "detail": "0x1C-makefiles.5-island_perimeter",
+        "documentation": {}
+    },
+    {
+        "label": "island_perimeter",
+        "kind": 2,
+        "importPath": "0x1C-makefiles.5-island_perimeter",
+        "description": "0x1C-makefiles.5-island_perimeter",
+        "peekOfCode": "def island_perimeter(grid):\n    \"\"\"\n        Finds the island perimeter.\n        Args:\n            grid (list): the matrix.\n    \"\"\"\n    perimeter = 0\n    for y in range(len(grid)):\n        for x in range(len(grid[0])):\n            if grid[y][x] == 1:",
+        "detail": "0x1C-makefiles.5-island_perimeter",
+        "documentation": {}
+    }
+]
